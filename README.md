@@ -25,14 +25,15 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 📝 Document Your Experience
 
-- [ ] Describe the game's purpose.
-- [ ] Detail which bugs you found.
-- [ ] Explain what fixes you applied.
+- **Purpose**: A refined number guessing game built to demonstrate state management and logical debugging in Streamlit.
+- **Bugs Found**: Incorrect difficulty ranges (Hard was easier than Normal), inconsistent score penalties, attempt penalties for invalid inputs, and secret number desync on difficulty change.
+- **Fixes Applied**: Core logic refactored into `logic_utils.py`, consistent scoring logic implemented, input validation added before attempt increment, and difficulty-based state reset implemented.
 
 ## 📸 Demo
 
-- [ ] [Insert a screenshot of your fixed, winning game here]
+![Winning Game Screenshot](file:///Users/sagarpatil/.gemini/antigravity/brain/93682b39-af95-4cdd-b2a4-ade881d0e46c/winning_screen_1773547199477.png)
 
 ## 🚀 Stretch Features
 
-- [ ] [If you choose to complete Challenge 4, insert a screenshot of your Enhanced Game UI here]
+- [x] **Automated Tests**: Expanded `pytest` suite covering all core logic functions.
+- [x] **State Stability**: Verified secret number persistence across interactions.
